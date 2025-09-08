@@ -1,4 +1,4 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
@@ -11,10 +11,10 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Kishor Bhat" }]
 dependencies = [
-  "streamlit>=1.36",
-  "pandas>=2.2",
-  "numpy>=1.26",
-  "matplotlib>=3.8"
+    "streamlit>=1.36",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8"
 ]
 
 [tool.setuptools.packages.find]
